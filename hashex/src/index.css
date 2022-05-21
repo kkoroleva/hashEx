@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Futura"),
+    url("./assets/fonts/Futura/FuturaBookC.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Futura"),
+    url("./assets/fonts/Futura/FuturaMediumC.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Futura"),
+    url("./assets/fonts/AvenirNextCyr/AvenirNextCyr-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Futura"),
+    url("./assets/fonts/AvenirNextCyr/AvenirNextCyr-Medium.woff") format("woff");
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

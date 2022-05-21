@@ -1,0 +1,133 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.main-footer {
+    background-color: #262626;
+}
+
+.main-footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 75px 60px 70px;
+}
+
+.main-footer__copyright-wrapper {
+    width: 220px;
+}
+
+.main-footer__logo {
+    margin-bottom: 35px;
+}
+
+.main-footer__smm-list {
+    margin-bottom: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.main-footer__smm-item {
+    border-radius: 50%;
+    background-color: rgba(65, 65, 65, 1);
+}
+
+.main-footer__smm-link {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+
+    font-size: 0;
+}
+
+.medium {
+    background: url('../assets/icon-medium.svg') center no-repeat;
+}
+
+.twitter {
+    background: url('../assets/icon-twitter.svg') center no-repeat;
+
+}
+
+.linkedin {
+    background: url('../assets/icon-linkedin.svg')center no-repeat;
+
+}
+
+.github {
+    background: url('../assets/icon-github.svg')center no-repeat;
+
+}
+
+.mail {
+    background: url('../assets/icon-mail.svg')center no-repeat;
+}
+
+.telegram {
+    background: url('../assets/icon-telegram.svg')center no-repeat;
+}
+
+.main-footer__copyright-list {
+    font-family: var(--avenir-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+}
+
+.main-footer__copyright-item {
+    margin-bottom: 10px;
+}
+
+.main-footer__copyright-link {
+    color: #C4C4C4;
+}
+
+.main-footer__nav-lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.main-footer__nav-list:first-of-type {
+    margin-bottom: 10px;
+}
+
+.main-footer__nav-item {
+    font-family: var(--avenir-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+
+
+.main-footer__nav-link {
+    color: #F1F1F1;
+}
+
+.main-footer__nav-item--header {
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #C4C4C4;
+}
