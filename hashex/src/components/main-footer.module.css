@@ -23,7 +23,13 @@ a:hover {
     max-width: 1440px;
     min-width: 320px;
     margin: 0 auto;
-    padding: 75px 60px 70px;
+    padding: 60px 20px 60px;
+}
+
+@media (min-width: 768px) {
+    .main-footer__nav {
+        padding: 75px 60px 70px;
+    }
 }
 
 .main-footer__copyright-wrapper {
@@ -93,6 +99,12 @@ a:hover {
 
 .main-footer__copyright-item {
     margin-bottom: 10px;
+    font-family: var(--avenir-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #C4C4C4;
 }
 
 .main-footer__copyright-link {

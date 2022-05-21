@@ -5,7 +5,7 @@ import yourslogo from '../assets/yours.png';
 import forta from '../assets/forta.png';
 import gnosis from '../assets/Gnosis.png';
 import polygon from '../assets/polygon.png';
-import analytex from '../assets/apeswap.png';
+import analytex from '../assets/Analytex.png';
 import cryptEx from '../assets/CryptEx.png';
 
 

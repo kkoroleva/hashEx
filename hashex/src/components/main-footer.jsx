@@ -42,9 +42,7 @@ const MainFooter = () => {
 
                 <ul className={styles["main-footer__copyright-list"]}>
                     <li className={styles["main-footer__copyright-item"]}>
-                        <a className={styles["main-footer__copyright-link"]}>
-                            © All rights reserved
-                        </a>
+                        © All rights reserved
                     </li>
                     <li className={styles["main-footer__copyright-item"]}>
                         <a href="#" className={styles["main-footer__copyright-link"]}>
@@ -64,9 +62,7 @@ const MainFooter = () => {
                 <div className="main-footer__column-wrapper">
                     <ul className={styles["main-footer__nav-list"]}>
                         <li className={`${styles["main-footer__nav-item"]} ${styles["main-footer__nav-item--header"]}`}>
-                            <a className={styles["main-footer__nav-link"]}>
-                                AUDITS
-                            </a>
+                            AUDITS
                         </li>
                         <li className={styles["main-footer__nav-item"]}>
                             <a href="#" className={styles["main-footer__nav-link"]}>
@@ -82,9 +78,7 @@ const MainFooter = () => {
 
                     <ul className={styles["main-footer__nav-list"]}>
                         <li className={`${styles["main-footer__nav-item"]} ${styles["main-footer__nav-item--header"]}`}>
-                            <a className={styles["main-footer__nav-link"]}>
-                                CHAINS
-                            </a>
+                            CHAINS
                         </li>
                         <li className={styles["main-footer__nav-item"]}>
                             <a href="#" className={styles["main-footer__nav-link"]}>
@@ -126,9 +120,7 @@ const MainFooter = () => {
 
                 <ul className={styles["main-footer__nav-list"]}>
                     <li className={`${styles["main-footer__nav-item"]} ${styles["main-footer__nav-item--header"]}`}>
-                        <a className={styles["main-footer__nav-link"]}>
-                            TYPES OF AUDITS
-                        </a>
+                        TYPES OF AUDITS
                     </li>
                     <li className={styles["main-footer__nav-item"]}>
                         <a href="#" className={styles["main-footer__nav-link"]}>
@@ -189,9 +181,7 @@ const MainFooter = () => {
 
                 <ul className={styles["main-footer__nav-list"]}>
                     <li className={`${styles["main-footer__nav-item"]} ${styles["main-footer__nav-item--header"]}`}>
-                        <a className={styles["main-footer__nav-link"]}>
-                            SERVICES
-                        </a>
+                        SERVICES
                     </li>
                     <li className={styles["main-footer__nav-item"]}>
                         <a href="#" className={styles["main-footer__nav-link"]}>
@@ -229,9 +219,7 @@ const MainFooter = () => {
 
                 <ul className={styles["main-footer__nav-list"]}>
                     <li className={`${styles["main-footer__nav-item"]} ${styles["main-footer__nav-item--header"]}`}>
-                        <a className={styles["main-footer__nav-link"]}>
-                            PRODUCTS
-                        </a>
+                        PRODUCTS
                     </li>
                     <li className={styles["main-footer__nav-item"]}>
                         <a href="#" className={styles["main-footer__nav-link"]}>
@@ -267,9 +255,7 @@ const MainFooter = () => {
 
                 <ul className={styles["main-footer__nav-list"]}>
                     <li className={`${styles["main-footer__nav-item"]} ${styles["main-footer__nav-item--header"]}`}>
-                        <a className={styles["main-footer__nav-link"]}>
-                            COMPANY
-                        </a>
+                        COMPANY
                     </li>
                     <li className={styles["main-footer__nav-item"]}>
                         <a href="#" className={styles["main-footer__nav-link"]}>
