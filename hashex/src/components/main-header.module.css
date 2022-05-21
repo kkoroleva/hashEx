@@ -1,0 +1,95 @@
+:root {
+    --basic-white: rgba(241, 241, 241, 1);
+}
+
+* {
+    box-sizing: border-box;
+}  
+
+.header {
+    position: relative;
+    width: 100%;
+    background-color: rgba(38, 38, 38, 1);
+}
+
+@media  (min-width: 1024px) {
+    .header { 
+        position: absolute;
+        top: 0; 
+    }
+}
+
+.main-header__nav {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .main-header__nav {
+        padding: 20px 70px 20px 60px;
+        flex-wrap: nowrap;
+    }
+}
+
+.main-header__logo {
+    padding: 5px 0;
+}
+
+.main-header__nav-list {
+    margin: 0;
+    padding: 0;
+    min-width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 45px;
+    row-gap: 10px;
+    list-style: none;
+}
+
+.main-header__nav-item {
+    padding: 10px;
+}
+
+.main-header__nav-item:hover {
+    opacity: 0.8;
+}
+
+.main-header__nav-item--form-link {
+    padding: 10px 25px 15px 55px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid var(--basic-white);
+    border-radius: 100px;
+}
+
+.main-header__nav-link {
+    color: var(--basic-white);
+    text-decoration: none;
+    font-family: 'Avenir', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+
+.main-header__nav-span {
+    position: relative;
+}
+
+.main-header__nav-span::before {
+    position: absolute;
+    display: block;
+    content: "";
+    background-image: url("../assets/icon-letstalk.svg");
+    top: 5px;
+    right: 75px;
+    width: 15px;
+    height: 13px;
+}
